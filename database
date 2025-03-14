@@ -1,0 +1,34 @@
+Airtable: https://airtable.com/invite/l?inviteId=inv00vviDLMiFd0jk&inviteToken=698abe129a88f23f236fe0b5a7d3169747da89fb354efb9a67a2a4522b10aebb&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts
+Firebase:
+
+Firebase Configuration Template  
+Create a `firebaseConfig_example.js` (if using JavaScript/Thunkable) or `.env.example` file (for backend projects).  
+
+🔹 For JavaScript Projects (Thunkable, Web Apps)  
+```js
+// firebaseConfig_example.js
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY_HERE",
+  authDomain: "your-app.firebaseapp.com",
+  databaseURL: "https://your-app.firebaseio.com",
+  projectId: "your-app",
+  storageBucket: "your-app.appspot.com",
+  messagingSenderId: "SENDER_ID",
+  appId: "APP_ID"
+};
+
+// Rename this file to firebaseConfig.js and replace with actual credentials.
+export default firebaseConfig;
+```
+
+🔹 For Backend (.env file example for Laravel/Node.js)  
+```sh
+# .env.example (Do NOT upload the actual .env)
+FIREBASE_API_KEY=YOUR_API_KEY_HERE
+FIREBASE_AUTH_DOMAIN=your-app.firebaseapp.com
+FIREBASE_DATABASE_URL=https://your-app.firebaseio.com
+FIREBASE_PROJECT_ID=your-app
+FIREBASE_STORAGE_BUCKET=your-app.appspot.com
+FIREBASE_MESSAGING_SENDER_ID=SENDER_ID
+FIREBASE_APP_ID=APP_ID
+```
